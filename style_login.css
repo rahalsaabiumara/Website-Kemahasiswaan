@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('login.png'); /* Sesuaikan path gambar */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; /* Susun elemen secara vertikal */
+    justify-content: center; /* Pusatkan secara vertikal */
+    align-items: center; /* Pusatkan secara horizontal */
+}
+
+h1 {
+    text-align: center;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    margin: 0; /* Hilangkan margin agar posisi lebih presisi */
+    padding: 20px;
+}
+
+.kotak_login {
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    width: 350px;
+    padding: 30px 20px;
+    text-align: center;
+    margin-top: 20px; /* Jarak antara kotak login dan h1 */
+}
+
+label {
+    font-size: 11pt;
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.form_login {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    font-size: 11pt;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    transition: border-color 0.3s ease;
+}
+
+.form_login:focus {
+    border-color: #2aa7e2;
+    outline: none;
+    box-shadow: 0 0 5px rgba(42, 167, 226, 0.3);
+}
+
+.tombol_login {
+    background: #100ea8;
+    color: white;
+    font-size: 11pt;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.tombol_login:hover {
+    background: #1f8ac1;
+}
+
+.link {
+    color: #232323;
+    text-decoration: none;
+    font-size: 10pt;
+    transition: color 0.3s ease;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.link:hover {
+    color: #2aa7e2;
+}
+
+.alert {
+    background: #e44e4e;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #b32929;
+    border-radius: 3px;
+    margin: 20px auto;
+    width: 350px;
+}

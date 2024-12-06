@@ -1,0 +1,15 @@
+ {
+    "name": "rahalsaabiumara/remasapp",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Rahalsa Abi Umara",
+            "email": "rahalsaabi.2022@student.uny.ac.id",
+            "role": "programmer"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit":"^6.5"
+    },
+    "description": "Project PHP"
+}
